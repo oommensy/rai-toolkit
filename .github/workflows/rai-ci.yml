@@ -1,0 +1,26 @@
+name: RAI CI
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Pre-commit
+        run: pre-commit run --all-files
+      - name: Tests
+        run: pytest
+      - name: RAI Gate: policy presence
+        run: |
+          test -f policies/ai_use_policy.md
+          test -f templates/model_card_template.md
+          test -f checklists/pr_rai_checklist.md

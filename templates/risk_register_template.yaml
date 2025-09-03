@@ -1,0 +1,8 @@
+# Risk Register (Template)
+- id: RSK-001
+  title: Prompt injection leads to data exfiltration
+  likelihood: medium
+  impact: high
+  mitigation: sandboxing, input/output filtering, content policy
+  owner: security@your-org.example
+  status: open

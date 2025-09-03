@@ -1,0 +1,8 @@
+pytest
+pyyaml
+regex
+pandas
+markdown-it-py
+pre-commit
+bandit
+detect-secrets
