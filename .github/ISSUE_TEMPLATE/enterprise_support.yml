@@ -1,0 +1,67 @@
+---
+name: 🏢 Enterprise Support
+about: Enterprise-specific questions, custom requirements, or integration help
+title: '[ENTERPRISE] '
+labels: ['enterprise', 'support', 'needs-triage']
+assignees: ''
+---
+
+## 🏢 Organization Context
+- **Organization Type:** [e.g., Fortune 500, Startup, Government, Research]
+- **Industry:** [e.g., Healthcare, Finance, Technology, Education]
+- **Team Size:** [e.g., 5-50, 50-500, 500+]
+- **AI Maturity:** [e.g., Just starting, Pilot projects, Production systems]
+
+## 🎯 Request Type
+What kind of enterprise support do you need?
+- [ ] Custom integration requirements
+- [ ] Compliance mapping (GDPR, SOX, HIPAA, etc.)
+- [ ] Scale/performance questions
+- [ ] Training and onboarding
+- [ ] Custom templates or policies
+- [ ] Vendor evaluation support
+- [ ] Implementation roadmap
+- [ ] Other: ___________
+
+## 📋 Detailed Requirements
+Describe your specific needs:
+
+## 🔒 Compliance & Regulatory Context
+What regulations or standards must you comply with?
+- [ ] GDPR (EU data protection)
+- [ ] CCPA (California privacy)
+- [ ] HIPAA (Healthcare)
+- [ ] SOX (Financial)
+- [ ] FedRAMP (US Government)
+- [ ] ISO 27001 (Security)
+- [ ] NIST AI Framework
+- [ ] Other: ___________
+
+## 🏗️ Technical Environment
+- **Infrastructure:** [e.g., AWS, Azure, GCP, On-premise]
+- **CI/CD Platform:** [e.g., GitHub Actions, Jenkins, GitLab]
+- **Monitoring Stack:** [e.g., Grafana, DataDog, Splunk]
+- **Container Platform:** [e.g., Kubernetes, Docker Swarm]
+- **Data Platform:** [e.g., Snowflake, Databricks, Custom]
+
+## ⏰ Timeline & Constraints
+- **Target Timeline:** [e.g., 1 month, 1 quarter, 1 year]
+- **Budget Considerations:** [e.g., Open source only, Commercial options OK]
+- **Resource Constraints:** [e.g., Limited dev time, No dedicated team]
+
+## 🚀 Success Criteria
+How will you measure success of RAI Toolkit implementation?
+
+## 📞 Preferred Engagement
+How would you like to engage with the project?
+- [ ] Community support via GitHub
+- [ ] Documentation and self-service
+- [ ] Commercial support (if available)
+- [ ] Consulting engagement
+- [ ] Training workshops
+- [ ] Custom development
+
+## 📎 Additional Context
+- Any existing RAI tools or processes
+- Special requirements or constraints
+- Relevant stakeholders or decision makers

@@ -1,0 +1,43 @@
+---
+name: 🎓 Community Question
+about: Ask questions about RAI Toolkit usage, best practices, or get help
+title: '[QUESTION] '
+labels: ['question', 'community']
+assignees: ''
+---
+
+## ❓ Your Question
+What would you like to know?
+
+## 🎯 Context
+Help us understand your situation:
+- **Your Role:** [e.g., Data Scientist, DevOps Engineer, Compliance Manager]
+- **Experience Level:** [e.g., New to RAI, Some experience, Expert]
+- **Project Stage:** [e.g., Planning, Development, Testing, Production]
+
+## 🔍 What You've Tried
+What have you already attempted?
+- [ ] Read the documentation
+- [ ] Checked existing issues
+- [ ] Tried the Quick Start guide
+- [ ] Searched online
+- [ ] Asked colleagues
+- [ ] Other: ___________
+
+## 📚 Relevant Documentation
+Have you checked these resources?
+- [ ] [README.md](../README.md) - Project overview
+- [ ] [QUICK_START.md](../QUICK_START.md) - Role-based getting started
+- [ ] [NAVIGATOR.md](../NAVIGATOR.md) - Find what you need
+- [ ] [SETUP.md](../SETUP.md) - Installation and environment
+- [ ] [INTEGRATIONS.md](../INTEGRATIONS.md) - Workflow integration
+- [ ] [Templates folder](../templates/) - Documentation templates
+- [ ] [Examples folder](../examples/) - Usage examples
+
+## 🎯 Desired Outcome
+What would a good answer look like for you?
+
+## 📎 Additional Information
+- Any error messages or logs
+- Your current configuration
+- Examples of what you're trying to achieve

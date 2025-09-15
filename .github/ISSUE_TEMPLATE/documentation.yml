@@ -1,0 +1,50 @@
+---
+name: 📚 Documentation Issue
+about: Report missing, unclear, or incorrect documentation
+title: '[DOCS] '
+labels: ['documentation', 'needs-triage']
+assignees: ''
+---
+
+## 📖 Documentation Issue
+What documentation needs to be improved?
+
+## 📍 Location
+Where is the documentation located?
+- [ ] README.md
+- [ ] QUICK_START.md
+- [ ] SETUP.md
+- [ ] NAVIGATOR.md
+- [ ] INTEGRATIONS.md
+- [ ] Templates folder
+- [ ] Policies folder
+- [ ] Tool documentation
+- [ ] Other: ___________
+
+## 🎯 User Persona
+Who would benefit from this documentation improvement?
+- [ ] New users/beginners
+- [ ] Data scientists
+- [ ] Compliance officers
+- [ ] Developers/DevOps
+- [ ] Leadership/managers
+- [ ] Enterprise users
+
+## ❌ Current Issue
+What's wrong with the current documentation?
+- [ ] Missing information
+- [ ] Unclear instructions
+- [ ] Outdated information
+- [ ] Incorrect examples
+- [ ] Poor organization
+- [ ] Hard to find
+- [ ] Other: ___________
+
+## ✅ Suggested Improvement
+What would make this documentation better?
+
+## 🔗 Related Resources
+Are there good examples or references we should follow?
+
+## 📊 Impact
+How would improving this documentation help users?

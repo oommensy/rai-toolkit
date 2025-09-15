@@ -1,0 +1,50 @@
+---
+name: ✨ Feature Request
+about: Suggest a new feature or enhancement for RAI Toolkit
+title: '[FEATURE] '
+labels: ['enhancement', 'needs-triage']
+assignees: ''
+---
+
+## 🎯 Feature Overview
+Brief description of the feature you'd like to see.
+
+## 💼 Business Value
+Why is this feature important for responsible AI practices?
+
+## 🏢 Use Case
+Describe your specific use case and how this feature would help:
+- **Role:** [e.g., Data Scientist, Compliance Officer, Developer]
+- **Organization Type:** [e.g., Startup, Enterprise, Research]
+- **Current Workaround:** How do you handle this now?
+
+## 📋 Detailed Requirements
+What should this feature do?
+- [ ] Requirement 1
+- [ ] Requirement 2
+- [ ] Requirement 3
+
+## 🎨 Proposed Solution
+If you have ideas on how to implement this:
+
+## 🔗 Integration Points
+How should this integrate with existing RAI Toolkit components?
+- [ ] Evaluation tools
+- [ ] Templates
+- [ ] CI/CD workflows
+- [ ] Governance policies
+- [ ] Documentation
+- [ ] Other: ___________
+
+## 📊 Success Criteria
+How will we know this feature is successful?
+
+## 🚀 Priority/Impact
+- **Priority:** [High/Medium/Low]
+- **Impact on RAI practices:** [High/Medium/Low]
+- **Implementation complexity:** [High/Medium/Low]
+
+## 📎 Additional Context
+- Similar tools or examples
+- References to standards or regulations
+- Links to relevant documentation

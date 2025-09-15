@@ -1,0 +1,44 @@
+---
+name: 🐛 Bug Report
+about: Report a bug or issue with RAI Toolkit
+title: '[BUG] '
+labels: ['bug', 'needs-triage']
+assignees: ''
+---
+
+## 🐛 Bug Description
+A clear and concise description of what the bug is.
+
+## 🔄 Steps to Reproduce
+1. Go to '...'
+2. Run command '...'
+3. See error
+
+## ✅ Expected Behavior
+What you expected to happen.
+
+## ❌ Actual Behavior
+What actually happened.
+
+## 🖥️ Environment
+- OS: [e.g., Ubuntu 20.04, macOS 12.0, Windows 10]
+- Python version: [e.g., 3.9.0]
+- RAI Toolkit version: [e.g., 1.0.0]
+- Installation method: [e.g., pip, Docker, from source]
+
+## 📊 Tool/Component
+Which RAI Toolkit component is affected?
+- [ ] PII Scanner
+- [ ] Toxicity Evaluator  
+- [ ] Bias Auditor
+- [ ] Evaluation Runner
+- [ ] Templates
+- [ ] Policies
+- [ ] CI/CD Integration
+- [ ] Documentation
+- [ ] Other: ___________
+
+## 📎 Additional Context
+- Error messages or logs
+- Screenshots (if applicable)
+- Related issues or PRs

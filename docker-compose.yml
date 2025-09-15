@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  rai-toolkit:
+    build: .
+    container_name: rai-toolkit
+    volumes:
+      - .:/workspace
+      - ./data:/data
+    environment:
+      - RAI_LOG_LEVEL=INFO
+      - PYTHONPATH=/workspace
+    working_dir: /workspace
+    command: tail -f /dev/null  # Keep container running
+    
+  rai-dashboard:
+    build: 
+      context: .
+      dockerfile: Dockerfile.dashboard
+    container_name: rai-dashboard
+    ports:
+      - "8080:8080"
+    depends_on:
+      - rai-toolkit
+    environment:
+      - RAI_TOOLKIT_URL=http://rai-toolkit:8000
+    volumes:
+      - ./reports:/app/reports
+
+networks:
+  default:
+    name: rai-network

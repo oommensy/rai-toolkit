@@ -3,3 +3,28 @@ __pycache__/
 *.pyc
 .DS_Store
 .secrets.baseline
+
+# Virtual environments
+rai-toolkit/
+venv/
+env/
+ENV/
+
+# Demo and test data
+demo_data/
+demo_outputs/
+test_data/
+rai_reports/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+*.swp
+*.swo
+
+# Coverage and testing
+.coverage
+.pytest_cache/
+htmlcov/
