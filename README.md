@@ -3,7 +3,35 @@
 
 A practical collection of tools, policies, and checklists to help teams build AI systems responsibly. Born from real-world experience implementing responsible AI practices across different organizations.
 
-## What's Inside
+## 🏗️ What's Inside
+
+```mermaid
+graph TD
+    A[🧰 RAI Toolkit] --> B[🔧 Security Tools]
+    A --> C[📋 Policies & Templates]
+    A --> D[⚡ Automation & CI]
+    
+    B --> B1[🔍 PII Scanner]
+    B --> B2[⚖️ Bias Auditor]
+    B --> B3[🛡️ Toxicity Evaluator]
+    B --> B4[🔒 Prompt Injection Scanner]
+    
+    C --> C1[📝 AI Use Policy]
+    C --> C2[🚀 Model Release Policy]
+    C --> C3[📊 Data Governance]
+    C --> C4[🚨 Incident Response]
+    C --> C5[📄 Model/Data Card Templates]
+    
+    D --> D1[✅ Pre-commit Hooks]
+    D --> D2[🤖 GitHub Actions]
+    D --> D3[📋 PR/Deployment Checklists]
+    D --> D4[🧪 Evaluation Runner]
+    
+    style A fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style B fill:#2196F3,stroke:#1565C0,color:#fff
+    style C fill:#FF9800,stroke:#E65100,color:#fff
+    style D fill:#9C27B0,stroke:#6A1B9A,color:#fff
+```
 
 This toolkit gives you the building blocks that teams actually need:
 
