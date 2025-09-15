@@ -1,7 +1,21 @@
 
 # Responsible AI Toolkit
 
+![CI](https://github.com/oommensy/rai-toolkit/actions/workflows/rai-ci.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Ready-blue)](https://github.com/codespaces/new?repo=oommensy/rai-toolkit)
+
+**Introducing RAI Toolkit: Practical, Plug-In Tools & Policies for Building AI Responsibly**
+
 A practical collection of tools, policies, and checklists to help teams build AI systems responsibly. Born from real-world experience implementing responsible AI practices across different organizations.
+
+## ⚡ Quick Start
+
+```bash
+git clone https://github.com/oommensy/rai-toolkit.git
+cd rai-toolkit && python tools/pii_scanner.py demo_data/sample_document_with_pii.txt
+python tools/toxic_content_evaluator.py --text "This is a sample text to evaluate"
+```
 
 ## 🏗️ What's Inside
 
