@@ -1,7 +1,7 @@
 # Model Card: SmartNVR-PersonDet-INT8
 
-**Owner**: Vision Team  
-**Version**: 1.0.0  
+**Owner**: Vision Team
+**Version**: 1.0.0
 **Date**: 2025-09-02
 
 ## 1. Overview & Intended Use

@@ -1,5 +1,12 @@
 import sys
-SUSPICIOUS = ["ignore previous", "developer mode", "exfiltrate", "\n\n\n", "system prompt"]
+
+SUSPICIOUS = [
+    "ignore previous",
+    "developer mode",
+    "exfiltrate",
+    "\n\n\n",
+    "system prompt",
+]
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

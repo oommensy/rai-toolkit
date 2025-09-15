@@ -1,32 +1,44 @@
-# Quick Start Guide: Find What You Need Fast
+# Getting Started
 
-This guide helps you navigate the RAI Toolkit based on your role and needs. No more hunting through folders!
+Don't know where to start? This guide points you in the right direction based on what you're trying to do.
 
-## 🎯 Choose Your Path
+## If you're a...
 
-### 📊 Data Scientists & ML Engineers
-**Goal:** Evaluate and improve model quality and safety
+### Data Scientist or ML Engineer
+You probably want to check your models and datasets for problems.
 
-**Start Here:**
-- `tools/toxic_content_evaluator.py` - Detect harmful content
-- `tools/dataset_bias_audit.py` - Check for bias in datasets
-- `evals/runner.py` - Run comprehensive model evaluations
-- `templates/model_card_template.md` - Document your models
+**Start with these:**
+- `tools/dataset_bias_audit.py` - Check if your training data is skewed
+- `tools/toxic_content_evaluator.py` - Scan model outputs for harmful content  
+- `evals/runner.py` - Run a full safety evaluation suite
+- `templates/model_card_template.md` - Document your model properly
 
-**Quick Commands:**
+**Quick test:**
 ```bash
-# Run toxicity evaluation
-python tools/toxic_content_evaluator.py --input your_model_outputs.jsonl
+# Check a dataset for bias
+python tools/dataset_bias_audit.py data.csv gender
 
-# Check dataset bias
-python tools/dataset_bias_audit.py --dataset your_data.csv
+# Scan some text for toxicity  
+python tools/toxic_content_evaluator.py outputs.txt
 
-# Run full evaluation suite
+# Run the full evaluation pipeline
 python evals/runner.py --config evals/config.example.yaml
 ```
 
-### 🛡️ Compliance & Risk Officers
-**Goal:** Ensure governance, compliance, and risk management
+### Compliance or Risk Person
+You need policies, documentation, and audit trails.
+
+**Start with these:**
+- `policies/ai_use_policy.md` - Template for organizational AI guidelines
+- `policies/incident_response_playbook.md` - What to do when AI goes wrong
+- `templates/risk_register_template.yaml` - Track risks across AI projects  
+- `templates/dpia_template.md` - Data protection impact assessments
+
+**Your checklist:**
+1. Customize the AI use policy for your organization
+2. Set up incident response procedures  
+3. Create risk registers for active AI projects
+4. Make sure teams are using the model card templates
 
 **Start Here:**
 - `policies/ai_use_policy.md` - Organization-wide AI guidelines

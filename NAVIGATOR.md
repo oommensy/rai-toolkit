@@ -1,33 +1,38 @@
-# RAI Toolkit Navigator: Find What You Need
+# Find What You Need
 
-Use this interactive guide to quickly find the right tools, templates, and resources for your responsible AI needs.
+Can't find the right tool or template? This page should help.
 
-## 🧭 Quick Decision Tree
+## What are you trying to do?
 
-### Start Here: What do you want to do?
+**Check something for problems:**
+- Model outputs seem unsafe → `tools/toxic_content_evaluator.py`
+- Dataset might be biased → `tools/dataset_bias_audit.py`  
+- Code might have secrets → `tools/pii_scanner.py`
+- Run full safety tests → `evals/runner.py`
 
-```
-┌─ I need to EVALUATE something
-│   ├─ Model outputs for safety issues → tools/toxic_content_evaluator.py
-│   ├─ Dataset for bias → tools/dataset_bias_audit.py  
-│   ├─ Code for PII/secrets → tools/pii_scanner.py
-│   └─ Full model evaluation → evals/runner.py
-│
-├─ I need to DOCUMENT something
-│   ├─ New AI model → templates/model_card_template.md
-│   ├─ Dataset → templates/data_card_template.md
-│   ├─ Project risks → templates/risk_register_template.yaml
-│   └─ Privacy impact → templates/dpia_template.md
-│
-├─ I need to SET UP governance  
-│   ├─ Team AI policies → policies/ai_use_policy.md
-│   ├─ Incident response → policies/incident_response_playbook.md
-│   ├─ Model release process → policies/model_release_policy.md
-│   └─ Data governance → policies/data_governance_policy.md
-│
-├─ I need to INTEGRATE with workflows
-│   ├─ CI/CD pipelines → INTEGRATIONS.md
-│   ├─ Development workflow → checklists/pr_rai_checklist.md
+**Document an AI system:**
+- New model → `templates/model_card_template.md`
+- New dataset → `templates/data_card_template.md`
+- Project risks → `templates/risk_register_template.yaml`
+- Privacy assessment → `templates/dpia_template.md`
+
+**Set up governance:**
+- Team AI policies → `policies/ai_use_policy.md`
+- Incident response → `policies/incident_response_playbook.md`
+- Model release process → `policies/model_release_policy.md`
+- Data governance → `policies/data_governance_policy.md`
+
+**Integrate with existing workflows:**
+- CI/CD examples → `INTEGRATIONS.md`
+- Code review process → `checklists/pr_rai_checklist.md`
+- Deployment checklist → `checklists/deployment_rai_checklist.md`
+- Environment setup → `SETUP.md`
+
+**Just getting started:**
+- New to this stuff → `QUICK_START.md`
+- I'm a developer → `QUICK_START.md` (developer section)
+- I handle compliance → `QUICK_START.md` (compliance section)
+- I'm a manager → `QUICK_START.md` (leadership section)
 │   ├─ Deployment process → checklists/deployment_rai_checklist.md
 │   └─ Environment setup → SETUP.md
 │

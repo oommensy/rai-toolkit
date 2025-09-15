@@ -1,28 +1,41 @@
-# Environment Setup Guide
+# Setup Instructions
 
-This guide provides multiple ways to set up the RAI Toolkit, from simple local installation to containerized deployments for organizations.
+How to get the RAI Toolkit running on your machine or in your organization.
 
-## 🚀 Quick Setup (Recommended)
+## Quick Local Setup
 
-### Option 1: Local Python Environment
+If you just want to try the tools:
+
 ```bash
-# Clone the repository
-git clone <repo-url>
+# Get the code
+git clone https://github.com/oommensy/rai-toolkit.git
 cd rai-toolkit
 
-# Create and activate virtual environment
-python3 -m venv rai-toolkit
-source rai-toolkit/bin/activate  # On Windows: rai-toolkit\Scripts\activate
+# Set up Python environment  
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+# Install what you need
 pip install -r requirements.txt
 
-# Install development tools
-pre-commit install
-
-# Verify installation
-pytest -q
+# Test it works
 python tools/pii_scanner.py --help
+```
+
+## Docker Setup
+
+If you want something more reproducible:
+
+```bash
+# Build the container
+docker build -t rai-toolkit .
+
+# Run it
+docker run -it --rm -v $(pwd):/workspace rai-toolkit
+
+# Or use docker-compose for a full setup
+docker-compose up -d
+```
 ```
 
 ### Option 2: Docker (Enterprise Ready)

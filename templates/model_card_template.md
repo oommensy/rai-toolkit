@@ -1,8 +1,8 @@
 # Model Card: <Model Name>
 
-**Owner**:  
-**Version**:  
-**Date**:  
+**Owner**:
+**Version**:
+**Date**:
 
 ## 1. Overview & Intended Use
 ## 2. Training Data (sources, licenses, consent)

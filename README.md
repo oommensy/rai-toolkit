@@ -1,21 +1,44 @@
 
 # Responsible AI Toolkit
 
-Empower your organization to **build, evaluate, and govern AI systems responsibly** with reusable code, policies, and checklists. The RAI Toolkit provides everything you need to operationalize responsible AI at scale.
+A practical collection of tools, policies, and checklists to help teams build AI systems responsibly. Born from real-world experience implementing responsible AI practices across different organizations.
 
-## Why Use This Toolkit?
+## What's Inside
 
-- **Accelerate Responsible AI Adoption:** Battle-tested defaults for policies, checklists, and scanners—ready to fork and tailor for your org.
-- **Streamline Governance:** Built-in templates for AI use, incident response, model release, and risk management.
-- **Automate Quality & Compliance:** CI/CD integrations for linting, secrets, dependency risk, and policy gates.
-- **Enhance Model Safety:** Evaluation harnesses for jailbreak, toxicity, hallucination, PII, and bias.
+This toolkit gives you the building blocks that teams actually need:
+
+- **Working security scanners** for PII, secrets, and prompt injection attacks
+- **Bias detection tools** that catch unfair dataset distributions  
+- **Ready-to-use policies** for AI governance, incident response, and model releases
+- **Documentation templates** that pass compliance audits
+- **CI/CD examples** that integrate with your existing workflows
+
+## Why Another RAI Toolkit?
+
+Most responsible AI resources are either too academic or too vendor-specific. We built this because:
+
+- Teams kept rebuilding the same basic scanners and policies
+- Existing tools didn't integrate well with normal development workflows  
+- Documentation was either missing or overly complex
+- Nobody had good examples of what "responsible AI in production" actually looks like
 
 ## Key Features
 
-- **RAI CI:** Pre-commit hooks and GitHub Actions for automated checks.
-- **Evaluations:** Harnesses for prompt-based model testing (jailbreak, toxicity, hallucination).
-- **Data Hygiene:** PII/bias scanners, datasheet and model card generators.
-- **Governance:** Templates for policies, incident response, model release, and risk register.
+**Security & Privacy**
+- PII scanner with common patterns (emails, SSNs, phone numbers)
+- Secrets detection integrated with pre-commit hooks
+- Prompt injection pattern matching
+
+**Fairness & Bias**  
+- Dataset bias auditing for protected attributes
+- Model evaluation harnesses for systematic testing
+- Bias reporting templates
+
+**Governance & Compliance**
+- Model and data card generators
+- Risk assessment templates
+- Incident response playbooks
+- Policy templates you can actually customize
 
 ## Getting Started
 

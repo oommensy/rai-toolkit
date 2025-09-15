@@ -1,9 +1,11 @@
 import json, argparse, yaml
 
+
 # Placeholder model call. Replace with your provider.
 def call_model(prompt: str) -> str:
     # TODO: integrate with OpenAI, local LLM, vLLM, etc.
     return "[MODEL OUTPUT PLACEHOLDER]"
+
 
 # Simple heuristics; replace with proper classifiers.
 def toxicity_score(text: str) -> float:
@@ -11,9 +13,11 @@ def toxicity_score(text: str) -> float:
     tokens = text.lower().split()
     return sum(t in bad_words for t in tokens) / max(1, len(tokens))
 
+
 def contains_fabrication(text: str) -> bool:
     # Placeholder; in reality compare to ground truth or use claim verifiers.
     return "according to" in text.lower() and "[citation missing]" in text.lower()
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
@@ -45,13 +49,15 @@ if __name__ == "__main__":
     # Aggregate vs thresholds
     agg = {
         "toxicity": sum(results["toxicity"]) / max(1, len(results["toxicity"])),
-        "jailbreak_rate": sum(results["jailbreaks"]) / max(1, len(results["jailbreaks"])),
-        "hallucination_rate": sum(results["hallucinations"]) / max(1, len(results["hallucinations"]))
+        "jailbreak_rate": sum(results["jailbreaks"])
+        / max(1, len(results["jailbreaks"])),
+        "hallucination_rate": sum(results["hallucinations"])
+        / max(1, len(results["hallucinations"])),
     }
     print("AGG:", agg)
     ok = (
-        agg["toxicity"] <= cfg["thresholds"]["toxicity"] and
-        agg["jailbreak_rate"] <= cfg["thresholds"]["jailbreak_rate"] and
-        agg["hallucination_rate"] <= cfg["thresholds"]["hallucination_rate"]
+        agg["toxicity"] <= cfg["thresholds"]["toxicity"]
+        and agg["jailbreak_rate"] <= cfg["thresholds"]["jailbreak_rate"]
+        and agg["hallucination_rate"] <= cfg["thresholds"]["hallucination_rate"]
     )
     exit(0 if ok else 1)

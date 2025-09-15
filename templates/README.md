@@ -1,33 +1,22 @@
-# Documentation Templates Index
+# Template Collection
 
-This index helps you find the right template or example for your documentation needs. All templates follow industry best practices and compliance requirements.
+Templates for documenting AI systems and managing compliance requirements.
 
-## 📋 Available Templates
+## Available Templates
 
-### 🤖 Model Documentation
+**Model Documentation**
+- [Model Card Template](model_card_template.md) - Document ML models for transparency
+- [Data Card Template](data_card_template.md) - Document datasets used in development
 
-| Template | Purpose | When to Use | Example |
-|----------|---------|-------------|---------|
-| [Model Card Template](model_card_template.md) | Document ML models for transparency and compliance | Before model deployment, for audits, stakeholder communication | [SmartNVR PersonDet Example](../examples/example_model_card.md) |
-| [Data Card Template](data_card_template.md) | Document datasets used in ML development | Before training, for data governance, compliance reviews | [Customer Data Example](../examples/example_data_card.md) |
+**Risk & Compliance**  
+- [Risk Register Template](risk_register_template.yaml) - Track AI project risks
+- [DPIA Template](dpia_template.md) - Data Protection Impact Assessment template
 
-### 🛡️ Risk & Compliance
+## Examples
+Check the [examples folder](../examples/) for real implementations of these templates.
 
-| Template | Purpose | When to Use | Example |
-|----------|---------|-------------|---------|
-| [Risk Register Template](risk_register_template.yaml) | Track and manage AI project risks | Project planning, ongoing risk management, compliance reporting | *See inline examples in template* |
-| [DPIA Template](dpia_template.md) | Data Protection Impact Assessment for AI systems | Before processing personal data, GDPR compliance, privacy reviews | *Complete example coming soon* |
-
-## 🚀 Quick Start Guide
-
-### For Data Scientists
-1. **New Model?** Start with [Model Card Template](model_card_template.md)
-2. **New Dataset?** Use [Data Card Template](data_card_template.md)  
-3. **Need Examples?** Check the [examples folder](../examples/)
-
-### For Compliance Teams
-1. **Risk Assessment?** Use [Risk Register Template](risk_register_template.yaml)
-2. **Privacy Review?** Start with [DPIA Template](dpia_template.md)
+## Usage
+Pick the template that matches what you're documenting. Each one includes instructions and examples to get you started.
 3. **Audit Prep?** Collect all model and data cards
 
 ### For Product Managers

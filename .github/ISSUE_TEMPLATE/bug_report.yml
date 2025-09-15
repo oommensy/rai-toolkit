@@ -1,26 +1,23 @@
 ---
-name: 🐛 Bug Report
-about: Report a bug or issue with RAI Toolkit
+name: Bug Report
+about: Something's not working right
 title: '[BUG] '
-labels: ['bug', 'needs-triage']
+labels: ['bug']
 assignees: ''
 ---
 
-## 🐛 Bug Description
-A clear and concise description of what the bug is.
+## What happened?
+Describe what went wrong.
 
-## 🔄 Steps to Reproduce
-1. Go to '...'
-2. Run command '...'
-3. See error
+## How to reproduce it
+1. Run this command: `...`
+2. With this input: `...`
+3. Got this error: `...`
 
-## ✅ Expected Behavior
-What you expected to happen.
+## What did you expect?
+What should have happened instead?
 
-## ❌ Actual Behavior
-What actually happened.
-
-## 🖥️ Environment
+## Your setup
 - OS: [e.g., Ubuntu 20.04, macOS 12.0, Windows 10]
 - Python version: [e.g., 3.9.0]
 - RAI Toolkit version: [e.g., 1.0.0]
