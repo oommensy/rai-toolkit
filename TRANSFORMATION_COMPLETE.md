@@ -46,7 +46,7 @@
 
 ## 🛠️ **Demonstrated Tools Working**
 
-We successfully tested all tools with real data:
+I successfully tested all tools with real data:
 
 - **PII Scanner**: Found 7 sensitive data items (emails, SSNs, phones)
 - **Toxicity Evaluator**: Scored content at 3.3% toxicity

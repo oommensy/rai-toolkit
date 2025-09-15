@@ -43,7 +43,7 @@ This toolkit gives you the building blocks that teams actually need:
 
 ## Why Another RAI Toolkit?
 
-Most responsible AI resources are either too academic or too vendor-specific. We built this because:
+Most responsible AI resources are either too academic or too vendor-specific. I built this because:
 
 - Teams kept rebuilding the same basic scanners and policies
 - Existing tools didn't integrate well with normal development workflows  
